@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/main.css" />
+        <link rel="icon" href="icon.png" />
+        <title>Snake Game</title>
+    </head>
+    <body>
+        <nav id="navigation">
+            <p id="points">Points: 0</p>
+            <p id="record">Record: 0</p>
+        </nav>
+        <canvas id="canvas" width="600" height="400"></canvas>
+    </body>
+    <script>
+        const canvas= document.getElementById("canvas");
+        const context= canvas.getContext("2d");
+        const width= 600;
+        const height= 400;
+        var path= [];
+    </script>
+    <script src="src/Snake.js"></script>
+    <script src="src/main.js"></script>
+</html>

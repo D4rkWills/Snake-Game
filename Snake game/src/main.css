@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+    background: rgb(56, 56, 56);
+}
+#canvas {
+    border: solid 2px gray;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    background: rgb(46, 80, 46);
+}
+#navigation {
+    position: absolute;
+    top: 5px;
+    left: 400px;
+    font: normal 16pt Arial;
+    color: gray;
+}
