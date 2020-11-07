@@ -15,16 +15,6 @@ Snake= class {
             this.snake.draw();
             this.snake.velX= this.velX;
             this.snake.velY= this.velY;
-            if (this.snake.x> width) {
-                this.snake.x= -10;
-            } else if (this.snake.x< -10) {
-                this.snake.x= width;
-            };
-            if (this.snake.y> height) {
-                this.snake.y= -10;
-            } else if (this.snake.y< -10) {
-                this.snake.y= height;
-            };
         } else {
             context.clearRect(this.x, this.y, 10, 10);
         };
