@@ -93,8 +93,8 @@ const update= function() {
         record= points;
     };
     if (pointCount>= 100) {
-        pointCount= 0;
-        vel-= 20;
+        pointCount-= 100;
+        vel-= 10;
         if (vel< 10) vel= 10;
     };
 };
