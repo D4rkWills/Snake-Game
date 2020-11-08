@@ -6,7 +6,7 @@ var count= 0;
 var fruit;
 var points= 0;
 var record= 0;
-var vel= 220;
+var vel= 200;
 var velCount= 0;
 var pointCount= 0;
 const init= function() {
@@ -23,7 +23,7 @@ const init= function() {
     points= 0;
     path= [];
     velCount= 0;
-    vel= 220;
+    vel= 200;
     pointCount= 0;
 };
 const move= function(event) {
@@ -92,9 +92,9 @@ const update= function() {
     if (points> record) {
         record= points;
     };
-    if (pointCount>= 100) {
-        pointCount-= 100;
-        vel-= 5;
+    if (pointCount>= 150) {
+        pointCount-= 150;
+        vel-= 10;
         if (vel< 10) vel= 10;
     };
 };
