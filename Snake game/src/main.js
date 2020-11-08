@@ -94,7 +94,7 @@ const update= function() {
     };
     if (pointCount>= 100) {
         pointCount-= 100;
-        vel-= 10;
+        vel-= 5;
         if (vel< 10) vel= 10;
     };
 };
